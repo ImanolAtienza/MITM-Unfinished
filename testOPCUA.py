@@ -43,9 +43,9 @@ phase = 1
 attackNow = 0
 inter = ""
 f = ""
-client = "10.200.5.24"
-server = "10.200.5.22"
-eva = "172.16.201.128"
+client = "X.X.X.X"
+server = "X.X.X.X"
+eva = "X.X.X.X"
 cResponse = IP(src = client, dst = server) / TCP(dport = 4840)
 sResponse = IP(src = server, dst = client) / TCP(sport = 4840)
 
